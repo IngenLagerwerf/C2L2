@@ -239,6 +239,7 @@ body {
    width: 420px;
    height: 220px;
    transition: transform .2s;
+  
  }
 #schoen1tekst h2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -248,6 +249,7 @@ body {
 #balls:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   margin-left: 45px;
+  
 
 }
 #menace img{
@@ -263,4 +265,7 @@ body {
 #menace:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   margin-left: 45px;
+}
+#jordangreen{
+  
 }
