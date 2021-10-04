@@ -1,0 +1,58 @@
+body{
+    background-image: url('../images/background2.jpg');
+}
+#af1 img{
+    width: auto;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+#knop1 img{
+    width: 200px;
+    height: auto;
+    margin-left: 340px;
+    margin-top: 20px;
+   
+    float: left/right;
+    position: absolute;
+    display: inline-block;
+    overflow: auto/scroll/hidden;
+    clear: left/right/both;
+}
+#prijs h1{
+    color: rgb(0, 0, 0);
+    
+    margin-bottom: 500px;
+    float: left/right;
+    position: absolute;
+    display: inline-block;
+    overflow: auto/scroll/hidden;
+    clear: left/right/both;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+#knop2 img{
+    width: 200px;
+    height: auto;
+    margin-left: 240px;
+    margin-top: 140px;
+   
+    float: left/right;
+    position: absolute;
+    display: inline-block;
+    overflow: auto/scroll/hidden;
+    clear: left/right/both;
+}
+#knop1:hover {
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    margin-left: 45px;
+  }
+  #knop2:hover {
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    margin-left: 45px;
+  }
+
